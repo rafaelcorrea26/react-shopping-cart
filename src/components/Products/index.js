@@ -1,9 +1,9 @@
-import React, { useEffect, useContext } from 'react';
+import { useEffect, useContext } from 'react';
 
 import './Products.css';
 import fetchProducts from '../../api/fetchProducts';
-import ProductCard from '../ProductCard/ProductCard';
-import Loading from '../Loading/Loading';
+import ProductCard from '../ProductCard';
+import Loading from '../Loading';
 import AppContext from '../../context/AppContext';
 
 function Products() {

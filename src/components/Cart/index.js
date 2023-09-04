@@ -1,10 +1,9 @@
-import React, { useContext } from 'react';
+import { useContext } from 'react';
 
 import './Cart.css';
-import CartItem from '../CartItem/CartItem';
 import AppContext from '../../context/AppContext';
 import formatCurrency from '../../utils/formatCurrency';
-
+import CartItem from '../CartItem';
 function Cart() {
   const { cartItems, isCartVisible } = useContext(AppContext);
 

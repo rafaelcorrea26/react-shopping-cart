@@ -1,8 +1,8 @@
-import React, { useContext } from 'react';
 import { AiOutlineShoppingCart } from 'react-icons/ai';
 
 import './CartButton.css';
 import AppContext from '../../context/AppContext';
+import { useContext } from 'react';
 
 function CartButton() {
 
